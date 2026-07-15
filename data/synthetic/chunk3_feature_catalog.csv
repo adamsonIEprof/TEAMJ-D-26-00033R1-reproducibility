@@ -1,0 +1,165 @@
+feature_name,block,source_variable,transform,lookback_days,known_by_target_date_start,retained_main,retained_sensitivity,notes,full_panel_nonmissing_rows,full_panel_missing_rows,full_panel_unique_nonmissing,included_main_nonmissing_rows
+lag14_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 14 day(s),14,Yes,1,1,Primary autoregressive signal.,713,18,346,537
+lag1_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,lag 1 day(s),1,Yes,1,1,Secondary utilization proxy.,725,6,50,537
+lag1_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 1 day(s),1,Yes,1,1,Primary autoregressive signal.,723,8,350,537
+lag28_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 28 day(s),28,Yes,1,1,Primary autoregressive signal.,699,32,340,537
+lag7_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,lag 7 day(s),7,Yes,1,1,Secondary utilization proxy.,720,11,49,537
+lag7_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 7 day(s),7,Yes,1,1,Primary autoregressive signal.,720,11,349,537
+roll14_mean_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,mean of previous 14 days excluding target date,14,Yes,1,1,Secondary proxy rolling history.,707,24,323,537
+roll14_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling target history.,707,24,702,537
+roll14_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 14 days excluding target date,14,Yes,1,1,Rolling target history.,707,24,702,537
+roll28_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling target history.,693,38,691,537
+roll28_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 28 days excluding target date,28,Yes,1,1,Rolling target history.,693,38,689,537
+roll3_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 3 days excluding target date,3,Yes,1,1,Rolling target history.,719,12,716,537
+roll3_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 3 days excluding target date,3,Yes,1,1,Rolling target history.,719,12,717,537
+roll7_mean_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,mean of previous 7 days excluding target date,7,Yes,1,1,Secondary proxy rolling history.,714,17,217,537
+roll7_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling target history.,714,17,712,537
+roll7_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 7 days excluding target date,7,Yes,1,1,Rolling target history.,714,17,711,537
+lag14_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,lag 14 day(s),14,Yes,0,1,Secondary utilization proxy.,713,18,49,537
+target_day_of_week_num,Calendar and seasonality,target_date,day-of-week numeric encoding,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,7,537
+target_dow_cos,Calendar and seasonality,target_date,cyclical day-of-week cosine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,7,537
+target_dow_sin,Calendar and seasonality,target_date,cyclical day-of-week sine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,7,537
+target_is_month_end,Calendar and seasonality,target_date,month-end indicator,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,2,537
+target_is_month_start,Calendar and seasonality,target_date,month-start indicator,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,2,537
+target_is_weekend,Calendar and seasonality,target_date,weekend indicator,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,2,537
+target_month,Calendar and seasonality,target_date,month number,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,12,537
+target_month_cos,Calendar and seasonality,target_date,cyclical month cosine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,11,537
+target_month_sin,Calendar and seasonality,target_date,cyclical month sine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,11,537
+target_quarter,Calendar and seasonality,target_date,quarter number,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,4,537
+target_week,Calendar and seasonality,target_date,ISO week number,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,52,537
+target_week_cos,Calendar and seasonality,target_date,cyclical week cosine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,47,537
+target_week_sin,Calendar and seasonality,target_date,cyclical week sine,target-date calendar,Yes,1,1,Known in advance without operational leakage.,731,0,45,537
+lag1_available_drivers,Capacity and readiness history,available_drivers,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,31,537
+lag1_available_trucks_18kl,Capacity and readiness history,available_trucks_18kl,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,9,537
+lag1_available_trucks_20kl,Capacity and readiness history,available_trucks_20kl,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,24,537
+lag1_available_trucks_30kl,Capacity and readiness history,available_trucks_30kl,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,15,537
+lag1_available_trucks_36kl,Capacity and readiness history,available_trucks_36kl,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,10,537
+lag1_available_trucks_total,Capacity and readiness history,available_trucks_total,lag 1 day(s),1,Yes,1,1,Fleet and staffing readiness history.,726,5,22,537
+lag1_driver_truck_gap,Capacity and readiness history,"available_drivers, available_trucks_total",lag1 difference available drivers - available trucks,1,Yes,1,1,Forecast-origin staffing slack.,726,5,21,537
+lag1_served_per_driver,Capacity and readiness history,"total_served, available_drivers",lag1 ratio served orders / available drivers,1,Yes,1,1,Forecast-origin productivity signal.,726,5,390,537
+lag7_available_drivers,Capacity and readiness history,available_drivers,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,31,537
+lag7_available_trucks_18kl,Capacity and readiness history,available_trucks_18kl,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,9,537
+lag7_available_trucks_20kl,Capacity and readiness history,available_trucks_20kl,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,23,537
+lag7_available_trucks_30kl,Capacity and readiness history,available_trucks_30kl,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,15,537
+lag7_available_trucks_36kl,Capacity and readiness history,available_trucks_36kl,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,10,537
+lag7_available_trucks_total,Capacity and readiness history,available_trucks_total,lag 7 day(s),7,Yes,1,1,Fleet and staffing readiness history.,720,11,21,537
+roll14_mean_available_drivers,Capacity and readiness history,available_drivers,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling capacity history.,713,18,94,537
+roll14_mean_available_trucks_total,Capacity and readiness history,available_trucks_total,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling capacity history.,713,18,84,537
+roll14_std_available_drivers,Capacity and readiness history,available_drivers,std of previous 14 days excluding target date,14,Yes,1,1,Rolling capacity history.,713,18,660,537
+roll14_std_available_trucks_total,Capacity and readiness history,available_trucks_total,std of previous 14 days excluding target date,14,Yes,1,1,Rolling capacity history.,713,18,631,537
+roll28_mean_available_drivers,Capacity and readiness history,available_drivers,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling capacity history.,699,32,144,537
+roll28_mean_available_trucks_total,Capacity and readiness history,available_trucks_total,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling capacity history.,699,32,129,537
+roll28_std_available_drivers,Capacity and readiness history,available_drivers,std of previous 28 days excluding target date,28,Yes,1,1,Rolling capacity history.,699,32,649,537
+roll28_std_available_trucks_total,Capacity and readiness history,available_trucks_total,std of previous 28 days excluding target date,28,Yes,1,1,Rolling capacity history.,699,32,647,537
+roll7_mean_available_drivers,Capacity and readiness history,available_drivers,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling capacity history.,720,11,67,537
+roll7_mean_available_trucks_total,Capacity and readiness history,available_trucks_total,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling capacity history.,720,11,61,537
+roll7_std_available_drivers,Capacity and readiness history,available_drivers,std of previous 7 days excluding target date,7,Yes,1,1,Rolling capacity history.,720,11,666,537
+roll7_std_available_trucks_total,Capacity and readiness history,available_trucks_total,std of previous 7 days excluding target date,7,Yes,1,1,Rolling capacity history.,720,11,641,537
+lag14_available_drivers,Capacity and readiness history,available_drivers,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,31,537
+lag14_available_trucks_18kl,Capacity and readiness history,available_trucks_18kl,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,9,537
+lag14_available_trucks_20kl,Capacity and readiness history,available_trucks_20kl,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,23,537
+lag14_available_trucks_30kl,Capacity and readiness history,available_trucks_30kl,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,15,537
+lag14_available_trucks_36kl,Capacity and readiness history,available_trucks_36kl,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,10,537
+lag14_available_trucks_total,Capacity and readiness history,available_trucks_total,lag 14 day(s),14,Yes,0,1,Fleet and staffing readiness history.,713,18,21,537
+lag1_days_since_fuel_update,External fuel-price context,days_since_fuel_update,lag 1 day(s),1,Yes,1,1,Fuel context known by forecast origin.,729,2,7,537
+lag1_fuel_update_day,External fuel-price context,fuel_update_day,lag 1 day indicator,1,Yes,1,1,Forecast-origin update indicator.,730,1,2,537
+lag1_weekly_change_diesel,External fuel-price context,weekly_change_diesel,lag 1 day(s),1,Yes,1,1,Fuel context known by forecast origin.,730,1,106,537
+lag1_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,lag 1 day(s),1,Yes,1,1,Fuel context known by forecast origin.,730,1,106,537
+lag1_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,lag 1 day(s),1,Yes,1,1,Fuel context known by forecast origin.,730,1,106,537
+lag7_days_since_fuel_update,External fuel-price context,days_since_fuel_update,lag 7 day(s),7,Yes,1,1,Fuel context known by forecast origin.,723,8,7,537
+lag7_weekly_change_diesel,External fuel-price context,weekly_change_diesel,lag 7 day(s),7,Yes,1,1,Fuel context known by forecast origin.,724,7,105,537
+lag7_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,lag 7 day(s),7,Yes,1,1,Fuel context known by forecast origin.,724,7,105,537
+lag7_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,lag 7 day(s),7,Yes,1,1,Fuel context known by forecast origin.,724,7,105,537
+roll14_mean_weekly_change_diesel,External fuel-price context,weekly_change_diesel,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling fuel-change context.,717,14,717,537
+roll14_mean_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling fuel-change context.,717,14,717,537
+roll14_mean_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling fuel-change context.,717,14,717,537
+roll28_mean_weekly_change_diesel,External fuel-price context,weekly_change_diesel,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling fuel-change context.,703,28,703,537
+roll28_mean_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling fuel-change context.,703,28,703,537
+roll28_mean_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling fuel-change context.,703,28,703,537
+roll7_mean_weekly_change_diesel,External fuel-price context,weekly_change_diesel,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling fuel-change context.,724,7,724,537
+roll7_mean_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling fuel-change context.,724,7,724,537
+roll7_mean_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling fuel-change context.,724,7,724,537
+lag14_days_since_fuel_update,External fuel-price context,days_since_fuel_update,lag 14 day(s),14,Yes,0,1,Fuel context known by forecast origin.,716,15,7,537
+lag14_weekly_change_diesel,External fuel-price context,weekly_change_diesel,lag 14 day(s),14,Yes,0,1,Fuel context known by forecast origin.,717,14,104,537
+lag14_weekly_change_gasoline,External fuel-price context,weekly_change_gasoline,lag 14 day(s),14,Yes,0,1,Fuel context known by forecast origin.,717,14,104,537
+lag14_weekly_change_kerosene,External fuel-price context,weekly_change_kerosene,lag 14 day(s),14,Yes,0,1,Fuel context known by forecast origin.,717,14,104,537
+lag1_backload_log1p_capped,Sparse backload and event context,backload_log1p_capped,lag 1 day(s),1,Yes,1,1,Sparse backload representation.,730,1,259,537
+lag1_backload_record_flag,Sparse backload and event context,backload_record_flag,lag 1 day(s),1,Yes,1,1,Sparse backload representation.,730,1,2,537
+roll28_mean_backload_log1p_capped,Sparse backload and event context,backload_log1p_capped,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling backload context.,703,28,419,537
+roll7_mean_backload_log1p_capped,Sparse backload and event context,backload_log1p_capped,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling backload context.,724,7,408,537
+lag1_any_qa_flag,Sparse backload and event context,any_qa_flag,lag 1 day(s),1,Yes,0,1,Robustness context flag.,730,1,2,537
+lag1_backload_total_kl_capped,Sparse backload and event context,backload_total_kl_capped,lag 1 day(s),1,Yes,0,1,Sparse backload representation.,730,1,259,537
+lag1_backload_total_kl_zero,Sparse backload and event context,backload_total_kl_zero,lag 1 day(s),1,Yes,0,1,Sparse backload representation.,730,1,262,537
+lag1_structural_nonoperational_day,Sparse backload and event context,structural_nonoperational_day,lag 1 day(s),1,Yes,0,1,Robustness context flag.,730,1,2,537
+lag7_any_qa_flag,Sparse backload and event context,any_qa_flag,lag 7 day(s),7,Yes,0,1,Robustness context flag.,724,7,2,537
+lag7_backload_log1p_capped,Sparse backload and event context,backload_log1p_capped,lag 7 day(s),7,Yes,0,1,Sparse backload representation.,724,7,256,537
+lag7_backload_record_flag,Sparse backload and event context,backload_record_flag,lag 7 day(s),7,Yes,0,1,Sparse backload representation.,724,7,2,537
+lag7_backload_total_kl_capped,Sparse backload and event context,backload_total_kl_capped,lag 7 day(s),7,Yes,0,1,Sparse backload representation.,724,7,256,537
+lag7_backload_total_kl_zero,Sparse backload and event context,backload_total_kl_zero,lag 7 day(s),7,Yes,0,1,Sparse backload representation.,724,7,259,537
+lag7_structural_nonoperational_day,Sparse backload and event context,structural_nonoperational_day,lag 7 day(s),7,Yes,0,1,Robustness context flag.,724,7,2,537
+lag1_accommodated_after_cutoff,Workload and execution history,accommodated_after_cutoff,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,7,537
+lag1_b2b_served_orders,Workload and execution history,b2b_served_orders,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,730,1,22,537
+lag1_best_effort,Workload and execution history,best_effort,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,5,537
+lag1_cancelled,Workload and execution history,cancelled,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,6,537
+lag1_carry_over,Workload and execution history,carry_over,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,5,537
+lag1_completion_rate_capped,Workload and execution history,completion_rate_capped,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,255,537
+lag1_deferred_rescheduled,Workload and execution history,deferred_rescheduled,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,10,537
+lag1_open_orders,Workload and execution history,open_orders,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,52,537
+lag1_open_orders_per_truck,Workload and execution history,"open_orders, available_trucks_total",lag1 ratio open orders / available trucks,1,Yes,1,1,Forecast-origin demand pressure.,723,8,352,537
+lag1_retail_served_orders,Workload and execution history,retail_served_orders,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,730,1,39,537
+lag1_retail_share_served,Workload and execution history,"retail_served_orders, b2b_served_orders",lag1 retail served share,1,Yes,1,1,Forecast-origin customer-mix proxy.,730,1,238,537
+lag1_service_gap,Workload and execution history,service_gap,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,14,537
+lag1_service_gap_per_truck,Workload and execution history,"service_gap, available_trucks_total",lag1 ratio service gap / available trucks,1,Yes,1,1,Forecast-origin shortfall pressure.,723,8,89,537
+lag1_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,49,537
+lag1_total_served,Workload and execution history,total_served,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,50,537
+lag1_unscheduled,Workload and execution history,unscheduled,lag 1 day(s),1,Yes,1,1,Operational workload and service execution history.,726,5,8,537
+lag7_accommodated_after_cutoff,Workload and execution history,accommodated_after_cutoff,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,7,537
+lag7_b2b_served_orders,Workload and execution history,b2b_served_orders,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,724,7,22,537
+lag7_best_effort,Workload and execution history,best_effort,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,5,537
+lag7_cancelled,Workload and execution history,cancelled,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,6,537
+lag7_carry_over,Workload and execution history,carry_over,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,5,537
+lag7_completion_rate_capped,Workload and execution history,completion_rate_capped,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,254,537
+lag7_deferred_rescheduled,Workload and execution history,deferred_rescheduled,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,10,537
+lag7_open_orders,Workload and execution history,open_orders,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,52,537
+lag7_retail_served_orders,Workload and execution history,retail_served_orders,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,724,7,39,537
+lag7_service_gap,Workload and execution history,service_gap,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,11,537
+lag7_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,49,537
+lag7_total_served,Workload and execution history,total_served,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,49,537
+lag7_unscheduled,Workload and execution history,unscheduled,lag 7 day(s),7,Yes,1,1,Operational workload and service execution history.,720,11,8,537
+roll14_mean_completion_rate_capped,Workload and execution history,completion_rate_capped,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,698,537
+roll14_mean_open_orders,Workload and execution history,open_orders,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,222,537
+roll14_mean_service_gap,Workload and execution history,service_gap,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,42,537
+roll14_mean_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,225,537
+roll14_mean_total_served,Workload and execution history,total_served,mean of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,234,537
+roll14_std_service_gap,Workload and execution history,service_gap,std of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,406,537
+roll14_std_total_served,Workload and execution history,total_served,std of previous 14 days excluding target date,14,Yes,1,1,Rolling workload summary.,713,18,671,537
+roll28_mean_completion_rate_capped,Workload and execution history,completion_rate_capped,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,689,537
+roll28_mean_open_orders,Workload and execution history,open_orders,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,313,537
+roll28_mean_service_gap,Workload and execution history,service_gap,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,49,537
+roll28_mean_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,307,537
+roll28_mean_total_served,Workload and execution history,total_served,mean of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,314,537
+roll28_std_service_gap,Workload and execution history,service_gap,std of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,375,537
+roll28_std_total_served,Workload and execution history,total_served,std of previous 28 days excluding target date,28,Yes,1,1,Rolling workload summary.,699,32,671,537
+roll7_mean_completion_rate_capped,Workload and execution history,completion_rate_capped,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,711,537
+roll7_mean_open_orders,Workload and execution history,open_orders,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,140,537
+roll7_mean_service_gap,Workload and execution history,service_gap,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,31,537
+roll7_mean_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,148,537
+roll7_mean_total_served,Workload and execution history,total_served,mean of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,153,537
+roll7_std_service_gap,Workload and execution history,service_gap,std of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,369,537
+roll7_std_total_served,Workload and execution history,total_served,std of previous 7 days excluding target date,7,Yes,1,1,Rolling workload summary.,720,11,684,537
+lag14_accommodated_after_cutoff,Workload and execution history,accommodated_after_cutoff,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,7,537
+lag14_b2b_served_orders,Workload and execution history,b2b_served_orders,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,717,14,22,537
+lag14_best_effort,Workload and execution history,best_effort,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,5,537
+lag14_cancelled,Workload and execution history,cancelled,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,6,537
+lag14_carry_over,Workload and execution history,carry_over,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,5,537
+lag14_completion_rate,Workload and execution history,completion_rate,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,261,537
+lag14_completion_rate_capped,Workload and execution history,completion_rate_capped,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,254,537
+lag14_deferred_rescheduled,Workload and execution history,deferred_rescheduled,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,10,537
+lag14_open_orders,Workload and execution history,open_orders,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,52,537
+lag14_retail_served_orders,Workload and execution history,retail_served_orders,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,717,14,39,537
+lag14_service_gap,Workload and execution history,service_gap,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,11,537
+lag14_total_scheduled_deliveries,Workload and execution history,total_scheduled_deliveries,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,49,537
+lag14_total_served,Workload and execution history,total_served,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,49,537
+lag14_unscheduled,Workload and execution history,unscheduled,lag 14 day(s),14,Yes,0,1,Operational workload and service execution history.,713,18,8,537
+lag1_completion_rate,Workload and execution history,completion_rate,lag 1 day(s),1,Yes,0,1,Operational workload and service execution history.,726,5,263,537
+lag7_completion_rate,Workload and execution history,completion_rate,lag 7 day(s),7,Yes,0,1,Operational workload and service execution history.,720,11,262,537

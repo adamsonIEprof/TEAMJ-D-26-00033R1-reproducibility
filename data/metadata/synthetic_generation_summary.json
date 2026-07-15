@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "contains_company_data": false,
+  "random_seed": 42,
+  "calendar_rows": 731,
+  "raw_descriptive_rows": 727,
+  "valid_operating_rows": 725,
+  "primary_target_rows": 724,
+  "secondary_target_rows": 726,
+  "qa_flagged_rows": 118,
+  "modeling_rows": 537,
+  "training_rows": 266,
+  "holdout_rows": 271,
+  "engineered_features": 164,
+  "main_features": 127,
+  "sensitivity_only_features": 37,
+  "completion_rate_cap_synthetic": 1.1796302124311562,
+  "backload_kl_cap_synthetic": 50.64286989327559,
+  "first_modeling_date": "2024-02-06",
+  "last_modeling_date": "2025-12-24"
+}
