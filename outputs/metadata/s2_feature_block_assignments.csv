@@ -1,0 +1,30 @@
+feature_name,block,source_variable,transform,lookback_days,notes,s2_order
+target_day_of_week_num,Calendar and seasonality,target_date,day-of-week numeric encoding,target-date calendar,Known in advance without operational leakage.,1
+target_dow_cos,Calendar and seasonality,target_date,cyclical day-of-week cosine,target-date calendar,Known in advance without operational leakage.,2
+target_dow_sin,Calendar and seasonality,target_date,cyclical day-of-week sine,target-date calendar,Known in advance without operational leakage.,3
+target_is_month_end,Calendar and seasonality,target_date,month-end indicator,target-date calendar,Known in advance without operational leakage.,4
+target_is_month_start,Calendar and seasonality,target_date,month-start indicator,target-date calendar,Known in advance without operational leakage.,5
+target_is_weekend,Calendar and seasonality,target_date,weekend indicator,target-date calendar,Known in advance without operational leakage.,6
+target_month,Calendar and seasonality,target_date,month number,target-date calendar,Known in advance without operational leakage.,7
+target_month_cos,Calendar and seasonality,target_date,cyclical month cosine,target-date calendar,Known in advance without operational leakage.,8
+target_month_sin,Calendar and seasonality,target_date,cyclical month sine,target-date calendar,Known in advance without operational leakage.,9
+target_quarter,Calendar and seasonality,target_date,quarter number,target-date calendar,Known in advance without operational leakage.,10
+target_week,Calendar and seasonality,target_date,ISO week number,target-date calendar,Known in advance without operational leakage.,11
+target_week_cos,Calendar and seasonality,target_date,cyclical week cosine,target-date calendar,Known in advance without operational leakage.,12
+target_week_sin,Calendar and seasonality,target_date,cyclical week sine,target-date calendar,Known in advance without operational leakage.,13
+lag14_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 14 day(s),14,Primary autoregressive signal.,14
+lag1_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,lag 1 day(s),1,Secondary utilization proxy.,15
+lag1_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 1 day(s),1,Primary autoregressive signal.,16
+lag28_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 28 day(s),28,Primary autoregressive signal.,17
+lag7_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,lag 7 day(s),7,Secondary utilization proxy.,18
+lag7_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,lag 7 day(s),7,Primary autoregressive signal.,19
+roll14_mean_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,mean of previous 14 days excluding target date,14,Secondary proxy rolling history.,20
+roll14_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 14 days excluding target date,14,Rolling target history.,21
+roll14_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 14 days excluding target date,14,Rolling target history.,22
+roll28_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 28 days excluding target date,28,Rolling target history.,23
+roll28_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 28 days excluding target date,28,Rolling target history.,24
+roll3_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 3 days excluding target date,3,Rolling target history.,25
+roll3_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 3 days excluding target date,3,Rolling target history.,26
+roll7_mean_secondary_trip_capacity_utilization_rate,Autoregressive utilization,secondary_trip_capacity_utilization_rate,mean of previous 7 days excluding target date,7,Secondary proxy rolling history.,27
+roll7_mean_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,mean of previous 7 days excluding target date,7,Rolling target history.,28
+roll7_std_target_utilization_intensity,Autoregressive utilization,target_utilization_intensity,std of previous 7 days excluding target date,7,Rolling target history.,29

@@ -1,0 +1,6 @@
+attribution,rule
+Demand-side dominant,Backlog signal and high-demand condition only
+Capacity/readiness dominant,Backlog signal and low-capacity/readiness condition only
+Mixed demand and capacity/readiness,Both high-demand and low-capacity/readiness conditions
+Backload-specific administrative/unspecified,Backload signal without demand or capacity threshold
+Normal-range or unattributed,No preceding attribution rule

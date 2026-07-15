@@ -1,0 +1,14 @@
+model,repeat,timing_scope,training_rows,inference_rows,fit_seconds,batch_inference_seconds,milliseconds_per_prediction,MAE,total_function_seconds,epochs_run
+14-day moving average,1,Separate model fit and batch prediction wall-clock times,266,271,0.0,3.819399989879457e-05,0.00014093726899924196,0.20625890888593248,,
+14-day moving average,2,Separate model fit and batch prediction wall-clock times,266,271,0.0,1.4356000065163244e-05,5.297416998215219e-05,0.20625890888593248,,
+14-day moving average,3,Separate model fit and batch prediction wall-clock times,266,271,0.0,3.308200030005537e-05,0.00012207380184522276,0.20625890888593248,,
+Random forest (S2),1,Separate model fit and batch prediction wall-clock times,266,271,0.14978317299983246,0.013211819000389369,0.04875209963243309,0.21255935965441522,,
+Random forest (S2),2,Separate model fit and batch prediction wall-clock times,266,271,0.1469155419999879,0.012909218999993755,0.0476354944649216,0.21255935965441522,,
+Random forest (S2),3,Separate model fit and batch prediction wall-clock times,266,271,0.15216288400006306,0.013206424000145489,0.04873219188245568,0.21255935965441522,,
+XGBoost (S2),1,Separate model fit and batch prediction wall-clock times,266,271,0.22534899399988717,0.005104523999762023,0.018835881917941045,0.27489794579201254,,
+XGBoost (S2),2,Separate model fit and batch prediction wall-clock times,266,271,0.22145922599975165,0.004819649999717512,0.017784686345821078,0.27489794579201254,,
+XGBoost (S2),3,Separate model fit and batch prediction wall-clock times,266,271,0.21137097200016797,0.00480613199988511,0.017734804427620335,0.27489794579201254,,
+LightGBM (S2),1,Separate model fit and batch prediction wall-clock times,266,271,0.13107544500007862,0.005268841000088287,0.019442217712502905,0.28300472299481716,,
+LightGBM (S2),2,Separate model fit and batch prediction wall-clock times,266,271,0.13588368999990053,0.005384014000355819,0.019867210333416305,0.28300472299481716,,
+LightGBM (S2),3,Separate model fit and batch prediction wall-clock times,266,271,0.1353215179997278,0.005323939999925642,0.01964553505507617,0.28300472299481716,,
+LSTM 28-step (S2),1,"Fit includes scaling, eligible-row sequence construction, and training; inference is timed separately",266,271,0.9168562129998463,0.005443551000098523,0.020086904059404144,0.22648634640707346,0.9235283309999431,28.0

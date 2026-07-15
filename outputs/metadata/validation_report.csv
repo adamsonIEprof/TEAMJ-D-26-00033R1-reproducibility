@@ -1,0 +1,28 @@
+check,status,details
+Expected outputs exist,PASS,missing=[]
+Calendar row count,PASS,"observed=731, expected=731"
+Primary target row count,PASS,"observed=724, expected=724"
+Secondary target row count,PASS,"observed=726, expected=726"
+Valid operating-day count,PASS,"observed=725, expected=725"
+Raw descriptive row count,PASS,"observed=727, expected=727"
+Synthetic QA-flag row count,PASS,"observed=118, expected=118"
+Synthetic truck-class arithmetic,PASS,daily truck-class components sum exactly to available_trucks_total
+Modeling row count,PASS,"observed=537, expected=537"
+Temporal split counts,PASS,"train=266, holdout=271, expected=266/271"
+Modeling date boundaries,PASS,"first=2024-02-06, last=2025-12-24"
+Engineered feature count,PASS,"observed=164, expected=164"
+Main and sensitivity feature counts,PASS,"main=127, sensitivity_only=37, expected=127/37"
+Row eligibility inclusion count,PASS,"observed=537, expected=537"
+Anti-leakage transformation audit,PASS,all non-calendar features are historical
+Forecast origin alignment,PASS,forecast_origin_date equals target_date minus one calendar day
+Expanding-window fold sizes,PASS,"train=[46, 90, 134, 178, 222], validation=[44, 44, 44, 44, 44]"
+Regime profile coverage,PASS,"regimes=['2024 training', '2025 H1 holdout', '2025 H2 holdout'], eligible_days=537"
+Holdout regime model coverage,PASS,"rows=10, model_totals={'14-day moving average': 271, 'LSTM 28-step (S2)': 271, 'LightGBM (S2)': 271, 'Random forest (S2)': 271, 'XGBoost (S2)': 271}"
+Fold stability summary coverage,PASS,"models=5, n_folds=[5, 5, 5, 5, 5]"
+Advanced holdout prediction coverage,PASS,"model_counts={'14-day moving average': 271, 'LSTM 28-step (S2)': 271, 'LightGBM (S2)': 271, 'Random forest (S2)': 271, 'XGBoost (S2)': 271}"
+Prediction completeness,PASS,no missing actuals or predictions
+Permutation-importance ranking,PASS,Table 15 is ranked by post-hoc holdout permutation MAE increase
+Serial-dependence-aware significance analysis,PASS,"seven-eligible-observation circular moving-block bootstrap with 2,000 resamples and valid adjusted p-values"
+Counterfactual combined-cost arithmetic,PASS,C = alerts + lambda_stress times missed stress + lambda_backlog times missed backlog
+No confidential-style binary data files,PASS,forbidden_files=[]
+Privacy text scan,PASS,findings=[]

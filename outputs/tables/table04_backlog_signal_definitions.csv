@@ -1,0 +1,6 @@
+signal,rule
+Carry-over,carry_over > 0
+Deferred/rescheduled,deferred_rescheduled > 0
+Unmet scheduled,"max(total_scheduled_deliveries - total_served, 0) > 0"
+Unconverted open orders,"max(open_orders - scheduled_from_open_orders, 0) > 0"
+Backload record,backload_order_count > 0

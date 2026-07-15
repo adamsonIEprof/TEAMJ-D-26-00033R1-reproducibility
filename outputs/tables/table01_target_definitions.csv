@@ -1,0 +1,7 @@
+target,formula,role,interpretation
+Realized served-truck utilization,total_served / available_trucks_total,Primary target,"Constrained realized utilization, not unconstrained demand"
+Scheduled demand pressure,total_scheduled_deliveries / available_trucks_total,Alternative target,Scheduled workload relative to available fleet
+Open-order pressure,open_orders / available_trucks_total,Alternative target,Demand pipeline relative to available fleet
+Served plus deferred pressure,(total_served + deferred_rescheduled) / available_trucks_total,Alternative target,Completed and explicitly deferred workload
+Expanded demand-pressure index,"(max(total_served,total_scheduled_deliveries) + backlog_open_minus_scheduled + backload_order_count) / available_trucks_total",Alternative target,Synthetic operational pressure index; components may overlap
+Secondary trip-capacity utilization,total_served / committed_trips_total_clean,Denominator robustness target,Served deliveries relative to cleaned committed-trip capacity

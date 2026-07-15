@@ -1,0 +1,9 @@
+comparison_model,baseline_model,outcome,additional_alert_days,missed_days_avoided,break_even_missed_day_penalty_per_alert
+Random forest (S2),14-day moving average,Stress day,48,16,3.0
+Random forest (S2),14-day moving average,Critical-risk day,48,43,1.1162790697674418
+XGBoost (S2),14-day moving average,Stress day,133,38,3.5
+XGBoost (S2),14-day moving average,Critical-risk day,133,119,1.1176470588235294
+LightGBM (S2),14-day moving average,Stress day,146,42,3.4761904761904763
+LightGBM (S2),14-day moving average,Critical-risk day,146,132,1.106060606060606
+LSTM 28-step (S2),14-day moving average,Stress day,67,23,2.9130434782608696
+LSTM 28-step (S2),14-day moving average,Critical-risk day,67,60,1.1166666666666667

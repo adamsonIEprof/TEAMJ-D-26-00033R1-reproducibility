@@ -1,0 +1,7 @@
+block,engineered_features,main_features,sensitivity_eligible,all_known_before_target,timing_rule
+Autoregressive utilization,17,16,17,True,"Lagged, shifted, rolling, previous-day, or carried-forward history only"
+Calendar and seasonality,13,13,13,True,Target-date calendar fields known in advance
+Capacity and readiness history,32,26,32,True,"Lagged, shifted, rolling, previous-day, or carried-forward history only"
+External fuel-price context,22,18,22,True,"Lagged, shifted, rolling, previous-day, or carried-forward history only"
+Sparse backload and event context,14,4,14,True,"Lagged, shifted, rolling, previous-day, or carried-forward history only"
+Workload and execution history,66,50,66,True,"Lagged, shifted, rolling, previous-day, or carried-forward history only"

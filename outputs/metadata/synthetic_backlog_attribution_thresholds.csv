@@ -1,0 +1,8 @@
+condition,variable,synthetic_threshold,quantile
+High demand,open_orders,42.0,0.75
+High demand,total_scheduled_deliveries,44.0,0.75
+High demand,scheduled_pressure,1.25,0.75
+High demand,open_order_pressure,1.1666666666666667,0.75
+Low capacity/readiness,available_trucks_total,33.0,0.25
+Low capacity/readiness,available_drivers,35.0,0.25
+Low capacity/readiness,drivers_per_truck,1.0,0.25
